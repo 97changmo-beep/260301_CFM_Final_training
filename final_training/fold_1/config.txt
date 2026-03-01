@@ -1,0 +1,75 @@
+############################
+# CFM-ID v5 Transfer Learning
+# Optimized based on:
+#   - v2 training log analysis (best convergence)
+#   - DeepCDM dansyl paper (small-dataset TL best practices)
+#   - CFM-ID 4.0 default parameters comparison
+#
+# Key changes from v4:
+#   - LR: 0.0001→0.00005 kept (v2 log shows good convergence, no overfitting)
+#   - em_no_progress_count: 2→3 (allow more exploration before early stop)
+#   - ga_max_iterations: 30→20 (v2 M-step converges in ~10-20 steps after iter 0)
+#   - em_max_iterations: 50→100 (match v2, energy1 needs more iterations)
+#   - ga_minibatch_nth_size: 2 kept (v2 validated this works well)
+#   - No layer freeze (v3 showed oscillation with frozen layers)
+############################
+
+lambda 0.0
+em_converge_thresh 0.01
+ga_converge_thresh 0.001
+model_depth 2
+
+# 3 energy levels (same spectra duplicated across e0/e1/e2)
+spectrum_depth 2
+spectrum_weight 1
+spectrum_depth 2
+spectrum_weight 1
+spectrum_depth 2
+spectrum_weight 1
+
+allow_frag_detours 1
+
+# EM settings
+# v2 log: e0 early-stopped at 5 iters, e1 still improving at iter 3
+# em_max=100 allows e1/e2 to converge fully (default CFM-ID uses 100)
+num_em_restarts 1
+em_no_progress_count 3
+em_max_iterations 100
+
+# Adam optimizer
+# v2 log: LR 0.0001 showed steady improvement without oscillation
+# DeepCDM (507 dansyl compounds): last-layer fine-tuning optimal for small datasets
+# Keeping conservative LR for 121-compound transfer learning (107T + 14V)
+ga_method 2
+starting_step_size 0.0001
+ending_step_size 0.00005
+ga_adam_beta_1 0.9
+ga_adam_beta_2 0.999
+
+# GA settings
+# v2 log: M-step iter 0 takes 5h, subsequent iters 1-2h
+# Reducing ga_max from 30→20: v2 M-step convergence happens within 15-20 steps
+ga_max_iterations 20
+ionization_mode 1
+ga_sampling_method 4
+ga_minibatch_nth_size 2
+collected_all_used_idx 1
+
+# Postprocessing
+default_predicted_peak_min 1
+default_predicted_peak_max 30
+default_predicted_min_intensity 0
+default_postprocessing_energy 80.0
+
+# NN architecture (128-128-1, same as default — no layer freeze)
+# v3 experiment: layer freeze caused oscillation, no benefit
+# DeepCDM last-layer freeze helped, but CFM-ID NN structure differs
+theta_function 2
+theta_nn_hlayer_num_nodes 128
+theta_nn_hlayer_num_nodes 128
+theta_nn_layer_act_func_ids 2
+theta_nn_layer_act_func_ids 2
+theta_nn_layer_act_func_ids 0
+nn_layer_dropout_probs 0.1
+nn_layer_dropout_probs 0.1
+nn_layer_dropout_probs 0

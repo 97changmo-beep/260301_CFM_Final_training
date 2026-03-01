@@ -1,0 +1,20 @@
+# Large data files (not suitable for GitHub)
+HMDB data/
+
+# Pretrained model weights (4.6MB each, download separately)
+**/pretrained/param_output.log
+
+# Training outputs (generated during training)
+**/param_output.log
+**/training.log
+**/tmp_data/
+**/predictions/
+**/baseline_predictions/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
