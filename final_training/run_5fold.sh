@@ -16,7 +16,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-IMAGE_NAME="cfmid-v5-omp"
+IMAGE_NAME="cfmid-final"
 N_FOLDS=5
 DRY_RUN=false
 

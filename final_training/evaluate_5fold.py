@@ -40,7 +40,7 @@ except ImportError:
 # ============================================================
 BASE = Path("C:/Users/Chang-Mo/Desktop/Git/260301_CFM_Final_training/final_training")
 N_FOLDS = 5
-IMAGE_NAME = "cfmid-v5-omp"
+IMAGE_NAME = "cfmid-final"
 
 
 # ============================================================

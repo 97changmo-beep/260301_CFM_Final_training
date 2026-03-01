@@ -82,7 +82,7 @@ Key: the `-w` flag loads pretrained weights, allowing the model to start from a 
 
 ## OpenMP Parallelization
 
-All 5 repeats use the same OpenMP-optimized Docker image (`cfmid-v5-omp`):
+All 5 repeats use the same OpenMP-optimized Docker image (`cfmid-final`):
 
 | Setting | Value |
 |---------|-------|
