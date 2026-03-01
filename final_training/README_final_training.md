@@ -130,14 +130,31 @@ final_training/
 
 ## How to Run
 
-### Step 1: Prepare training data
+### Step 0: Clone and build Docker image
 
 ```bash
-cd C:/Users/Chang-Mo/Desktop/Git/260301_CFM_Final_training/final_training
+# Clone repository
+git clone https://github.com/97changmo-beep/260301_CFM_Final_training.git
+cd 260301_CFM_Final_training
+
+# Build Docker image (OpenMP + mimalloc parallelized CFM-ID 4.0)
+cd docker
+docker build -t cfmid-final .
+cd ..
+```
+
+Build takes ~5-10 minutes. Requires Docker installed.
+The image includes: CFM-ID 4.0 with OpenMP patches, mimalloc allocator, cfm-train & cfm-predict.
+
+### Step 1: Prepare training data (optional — already included in repo)
+
+```bash
+cd final_training
 python prepare_training.py
 ```
 
-This creates fold_0 through fold_4 with all required files.
+fold_0 through fold_4 are already included in the repository.
+Only re-run if you want to regenerate splits from the MGF file.
 
 ### Step 2: Run training (all 5 folds)
 
