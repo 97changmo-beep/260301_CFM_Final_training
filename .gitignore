@@ -1,11 +1,9 @@
 # Large data files (not suitable for GitHub)
 HMDB data/
 
-# Pretrained model weights (4.6MB each, download separately)
-**/pretrained/param_output.log
-
 # Training outputs (generated during training)
-**/param_output.log
+# Note: pretrained/param_output.log is INCLUDED (needed for transfer learning)
+fold_*/param_output.log
 **/training.log
 **/tmp_data/
 **/predictions/
