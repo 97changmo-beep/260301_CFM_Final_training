@@ -73,7 +73,7 @@ echo "=================================================================="
 if ! docker image inspect "$IMAGE_NAME" >/dev/null 2>&1; then
     echo ""
     echo "ERROR: Docker image '$IMAGE_NAME' not found."
-    echo "Build it first: cd archive/cfmid_v5 && docker build -t $IMAGE_NAME -f Dockerfile ."
+    echo "Build it first: cd docker && docker build -t $IMAGE_NAME ."
     exit 1
 fi
 echo "Docker image: $IMAGE_NAME (OK)"
