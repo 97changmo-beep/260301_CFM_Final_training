@@ -1,0 +1,938 @@
+
+libgomp: Affinity not supported on this configuration
+Initialising Feature Calculator..Done
+Initialising Parameter Configuration..Positive ESI Ionization Mode
+Not including fragment isotopes
+Including Hydrogen losses
+Allow intermediate peaks
+Using Random Parameter Initialisation
+EM Restart Times: 1
+Using EM Convergence Threshold 0.01
+Using Lambda 0
+Using Adam implementation
+Using starting step size 0.0001 ending step size 5e-05 beta1  0.9 beta2 0.999 eps 1e-08 amsgrad 0
+Using GA max iterations 20
+Using GA Convergence Threshold 0.001
+Using GA mini batch taking 1 in 2 of processor data
+NOT Using Decay Method
+Using Fragmentation Graph Depth 2
+Using Difference sampling BFS with max selected peak count at 30
+Allowing fragmentation detours 
+Maximum Ring Breaks 2
+Using Model Depth 2
+Using Spectrum Depths and Weights: (2,1) (2,1) (2,1) 
+Using Absolute mass tolerance 0.01
+Using PPM mass tolerance 10
+Using neural net for theta with 3 hidden layers: 
+Hidden layer nodes:          128       128         1
+Activation functions:       Relu      Relu    Linear
+Hidden layer dropout:        0.1       0.1         0
+Hidden layer freeze:  
+Using normally distributed observation function
+Done
+Parsing input file...Done
+[Graph] Computing fragmentation graphs for 131 molecules.. [OpenMP: 32 threads]
+[Graph] 1/131 molecules processed
+[Graph] 2/131 molecules processed
+[Graph] 3/131 molecules processed
+[Graph] 4/131 molecules processed
+[Graph] 5/131 molecules processed
+[Graph] 6/131 molecules processed
+[Graph] 7/131 molecules processed
+[Graph] 8/131 molecules processed
+[Graph] 9/131 molecules processed
+[Graph] 10/131 molecules processed
+[Graph] 11/131 molecules processed
+[Graph] 12/131 molecules processed
+[Graph] 13/131 molecules processed
+[Graph] 14/131 molecules processed
+[Graph] 15/131 molecules processed
+[Graph] 16/131 molecules processed
+[Graph] 17/131 molecules processed
+[Graph] 18/131 molecules processed
+[Graph] 19/131 molecules processed
+[Graph] 20/131 molecules processed
+[Graph] 21/131 molecules processed
+[Graph] 22/131 molecules processed
+[Graph] 23/131 molecules processed
+[Graph] 24/131 molecules processed
+[Graph] 25/131 molecules processed
+[Graph] 26/131 molecules processed
+[Graph] 27/131 molecules processed
+[Graph] 28/131 molecules processed
+[Graph] 29/131 molecules processed
+[Graph] 30/131 molecules processed
+[Graph] 31/131 molecules processed
+[Graph] 32/131 molecules processed
+[Graph] 33/131 molecules processed
+[Graph] 34/131 molecules processed
+[Graph] 35/131 molecules processed
+[Graph] 36/131 molecules processed
+[Graph] 37/131 molecules processed
+[Graph] 38/131 molecules processed
+[Graph] 39/131 molecules processed
+[Graph] 40/131 molecules processed
+[Graph] 41/131 molecules processed
+[Graph] 42/131 molecules processed
+[Graph] 43/131 molecules processed
+[Graph] 44/131 molecules processed
+[Graph] 45/131 molecules processed
+[Graph] 46/131 molecules processed
+[Graph] 47/131 molecules processed
+[Graph] 48/131 molecules processed
+[Graph] 49/131 molecules processed
+[Graph] 50/131 molecules processed
+[Graph] 51/131 molecules processed
+[Graph] 52/131 molecules processed
+[Graph] 53/131 molecules processed
+[Graph] 54/131 molecules processed
+[Graph] 55/131 molecules processed
+[Graph] 56/131 molecules processed
+[Graph] 57/131 molecules processed
+[Graph] 58/131 molecules processed
+[Graph] 59/131 molecules processed
+[Graph] 60/131 molecules processed
+[Graph] 61/131 molecules processed
+[Graph] 62/131 molecules processed
+[Graph] 63/131 molecules processed
+[Graph] 64/131 molecules processed
+[Graph] 65/131 molecules processed
+[Graph] 66/131 molecules processed
+[Graph] 67/131 molecules processed
+[Graph] 68/131 molecules processed
+[Graph] 69/131 molecules processed
+[Graph] 70/131 molecules processed
+[Graph] 71/131 molecules processed
+[Graph] 72/131 molecules processed
+[Graph] 73/131 molecules processed
+[Graph] 74/131 molecules processed
+[Graph] 75/131 molecules processed
+[Graph] 76/131 molecules processed
+[Graph] 77/131 molecules processed
+[Graph] 78/131 molecules processed
+[Graph] 79/131 molecules processed
+[Graph] 80/131 molecules processed
+[Graph] 81/131 molecules processed
+[Graph] 82/131 molecules processed
+[Graph] 83/131 molecules processed
+[Graph] 84/131 molecules processed
+[Graph] 85/131 molecules processed
+[Graph] 86/131 molecules processed
+[Graph] 87/131 molecules processed
+[Graph] 88/131 molecules processed
+[Graph] 89/131 molecules processed
+[Graph] 90/131 molecules processed
+[Graph] 91/131 molecules processed
+[Graph] 92/131 molecules processed
+[Graph] 93/131 molecules processed
+[Graph] 94/131 molecules processed
+[Graph] 95/131 molecules processed
+[Graph] 96/131 molecules processed
+[Graph] 97/131 molecules processed
+[Graph] 98/131 molecules processed
+[Graph] 99/131 molecules processed
+[Graph] 100/131 molecules processed
+[Graph] 101/131 molecules processed
+[Graph] 102/131 molecules processed
+[Graph] 103/131 molecules processed
+[Graph] 104/131 molecules processed
+[Graph] 105/131 molecules processed
+[Graph] 106/131 molecules processed
+[Graph] 107/131 molecules processed
+[Graph] 108/131 molecules processed
+[Graph] 109/131 molecules processed
+[Graph] 110/131 molecules processed
+[Graph] 111/131 molecules processed
+[Graph] 112/131 molecules processed
+[Graph] 113/131 molecules processed
+[Graph] 114/131 molecules processed
+[Graph] 115/131 molecules processed
+[Graph] 116/131 molecules processed
+[Graph] 117/131 molecules processed
+[Graph] 118/131 molecules processed
+[Graph] 119/131 molecules processed
+[Graph] 120/131 molecules processed
+[Graph] 121/131 molecules processed
+[Graph] 122/131 molecules processed
+[Graph] 123/131 molecules processed
+[Graph] 124/131 molecules processed
+[Graph] 125/131 molecules processed
+[Graph] 126/131 molecules processed
+[Graph] 127/131 molecules processed
+[Graph] 128/131 molecules processed
+[Graph] 129/131 molecules processed
+[Graph] 130/131 molecules processed
+[Graph] 131/131 molecules processed
+[DIAG-1] After graph computation: 131/131 molecules have graph_computed=true
+[Graph] Completed: 131 success, 0 exceptions
+0: 131 successfully computed. 0 exceptions.
+[Graph] Total time: 253 seconds
+[Spectra] Loading 131 spectra files...
+[Spectra] 20/131 loaded
+[Spectra] 40/131 loaded
+[Spectra] 60/131 loaded
+[Spectra] 80/131 loaded
+[Spectra] 100/131 loaded
+[Spectra] 120/131 loaded
+[Spectra] 131/131 loaded
+[Spectra] All spectra loaded
+[DIAG-2] Before training: 131/131 molecules have graph_computed=true
+[DIAG-2] mol[0] id=HMDB0001514_376.20783_9.9 hasGraph=1 nSpectra=3 nFrag=4050 nTrans=38155
+[DIAG-2] mol[1] id=HMDB0001104_417.23438_15.7 hasGraph=1 nSpectra=3 nFrag=5040 nTrans=49225
+[DIAG-2] mol[2] id=HMDB0042012_376.22308_14.5 hasGraph=1 nSpectra=3 nFrag=4813 nTrans=49667
+Running EM to train parameters for Group 1
+[Training] ================================================
+[Training] Starting Energy 0 (1/3)
+[Training] ================================================
+EM: Initial params provided from pretrained/param_output.log
+EM_NN: Initial params provided from pretrained/param_output.log
+EM Iteration 0
+[E-Step][Diag] energy_level=0 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][T+170.79s]Completed E-step processing: Time Elapsed = 170.32 s
+[M-SteP]Learning_Rate=0.0001
+[M-Step][T+313.71s]Collect Used Index, Time Used: 142.92s
+1.[T+375.53s]Loss=-711.758 Prev Loss=-1.79769e+308 Time Escaped: 61.81s
+2.[T+438.88s]Loss=-706.297 Prev Loss=-711.758 Time Escaped: 63.35s
+3.[T+502.33s]Loss=-701.539 Prev Loss=-706.297 Time Escaped: 63.45s
+4.[T+565.38s]Loss=-697.533 Prev Loss=-701.539 Time Escaped: 63.06s
+5.[T+628.48s]Loss=-694.166 Prev Loss=-697.533 Time Escaped: 63.10s
+6.[T+690.94s]Loss=-691.519 Prev Loss=-694.166 Time Escaped: 62.46s
+7.[T+754.16s]Loss=-689.397 Prev Loss=-691.519 Time Escaped: 63.22s
+8.[T+816.80s]Loss=-687.571 Prev Loss=-689.397 Time Escaped: 62.64s
+9.[T+879.76s]Loss=-685.986 Prev Loss=-687.571 Time Escaped: 62.96s
+10.[T+943.04s]Loss=-684.619 Prev Loss=-685.986 Time Escaped: 63.28s
+11.[T+1004.73s]Loss=-683.394 Prev Loss=-684.619 Time Escaped: 61.69s
+12.[T+1067.58s]Loss=-682.276 Prev Loss=-683.394 Time Escaped: 62.84s
+13.[T+1130.88s]Loss=-681.253 Prev Loss=-682.276 Time Escaped: 63.30s
+14.[T+1194.36s]Loss=-680.31 Prev Loss=-681.253 Time Escaped: 63.47s
+15.[T+1257.42s]Loss=-679.48 Prev Loss=-680.31 Time Escaped: 63.06s
+16.[T+1320.04s]Loss=-678.683 Prev Loss=-679.48 Time Escaped: 62.62s
+17.[T+1383.94s]Loss=-677.928 Prev Loss=-678.683 Time Escaped: 63.91s
+18.[T+1446.19s]Loss=-677.221 Prev Loss=-677.928 Time Escaped: 62.25s
+19.[T+1509.31s]Loss=-676.52 Prev Loss=-677.221 Time Escaped: 63.12s
+20.[T+1572.37s]Loss=-675.832 Prev Loss=-676.52 Time Escaped: 63.06s
+Gradient ascent converged after 20 iterations
+[M-Step][T+1572.373047s]Completed M-step update: Time Elapsed = 1401.58
+[M-Step][T+1768.57s]Loss=-675.831787 Loss_Avg=-5.631932
+Dice_Avg=0.344280 DotProduct_Avg=0.592449
+Precision_Avg=0.456878 Recall_Avg=0.303862
+Validation_Loss_Total=-53.705784 Validation_Loss_Avg=-4.882344
+Validation_Dice_Avg=0.390827 Validation_DotProduct_Avg=0.595178
+Validation_Precision_Avg=0.421030 Validation_Recall_Avg=0.379906
+[M-Step] Found Better Q: -675.831787 Write to File
+EM Iteration 1
+[E-Step][Diag] energy_level=0 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][T+1941.40s]Completed E-step processing: Time Elapsed = 172.60 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+2013.18s]Loss=-676.555 Prev Loss=-1.79769e+308 Time Escaped: 71.77s
+2.[T+2084.66s]Loss=-675.131 Prev Loss=-676.555 Time Escaped: 71.49s
+3.[T+2156.07s]Loss=-674.02 Prev Loss=-675.131 Time Escaped: 71.40s
+4.[T+2226.84s]Loss=-673.163 Prev Loss=-674.02 Time Escaped: 70.77s
+5.[T+2297.69s]Loss=-672.308 Prev Loss=-673.163 Time Escaped: 70.85s
+6.[T+2369.53s]Loss=-671.539 Prev Loss=-672.308 Time Escaped: 71.84s
+7.[T+2438.54s]Loss=-670.781 Prev Loss=-671.539 Time Escaped: 69.01s
+8.[T+2510.13s]Loss=-669.977 Prev Loss=-670.781 Time Escaped: 71.58s
+9.[T+2581.98s]Loss=-669.034 Prev Loss=-669.977 Time Escaped: 71.85s
+10.[T+2653.50s]Loss=-668.124 Prev Loss=-669.034 Time Escaped: 71.52s
+11.[T+2724.44s]Loss=-667.354 Prev Loss=-668.124 Time Escaped: 70.95s
+12.[T+2795.21s]Loss=-666.624 Prev Loss=-667.354 Time Escaped: 70.77s
+13.[T+2867.13s]Loss=-665.96 Prev Loss=-666.624 Time Escaped: 71.92s
+14.[T+2937.86s]Loss=-665.388 Prev Loss=-665.96 Time Escaped: 70.73s
+15.[T+3009.27s]Loss=-664.85 Prev Loss=-665.388 Time Escaped: 71.41s
+16.[T+3080.41s]Loss=-664.274 Prev Loss=-664.85 Time Escaped: 71.13s
+Gradient ascent converged after 16 iterations
+[M-Step][T+3080.406982s]Completed M-step update: Time Elapsed = 1139.00
+[M-Step][T+3273.52s]Loss=-664.273682 Loss_Avg=-5.535614
+Loss_Ratio= 0.017400 Prev_Loss=-675.831787 Best_Loss=-675.831787
+Dice_Avg=0.372473 DotProduct_Avg=0.625126
+Precision_Avg=0.572839 Recall_Avg=0.303929
+Validation_Loss_Total=-54.573856 Validation_Loss_Avg=-4.961260
+Validation_Dice_Avg=0.403164 Validation_DotProduct_Avg=0.590423
+Validation_Precision_Avg=0.486358 Validation_Recall_Avg=0.368290
+[M-Step] Found Better Q: -664.273682 Write to File
+EM Iteration 2
+[E-Step][Diag] energy_level=0 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][T+3444.31s]Completed E-step processing: Time Elapsed = 170.57 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+3512.17s]Loss=-660.795 Prev Loss=-1.79769e+308 Time Escaped: 67.85s
+2.[T+3579.58s]Loss=-660.236 Prev Loss=-660.795 Time Escaped: 67.41s
+3.[T+3648.13s]Loss=-659.684 Prev Loss=-660.236 Time Escaped: 68.54s
+4.[T+3715.83s]Loss=-659.123 Prev Loss=-659.684 Time Escaped: 67.71s
+5.[T+3782.88s]Loss=-658.669 Prev Loss=-659.123 Time Escaped: 67.04s
+Gradient ascent converged after 5 iterations
+[M-Step][T+3782.879883s]Completed M-step update: Time Elapsed = 338.57
+[M-Step][T+3980.44s]Loss=-658.669434 Loss_Avg=-5.488912
+Loss_Ratio= 0.008508 Prev_Loss=-664.273682 Best_Loss=-664.273682
+Dice_Avg=0.371585 DotProduct_Avg=0.628047
+Precision_Avg=0.549507 Recall_Avg=0.310867
+Validation_Loss_Total=-54.623131 Validation_Loss_Avg=-4.965739
+Validation_Dice_Avg=0.399663 Validation_DotProduct_Avg=0.586032
+Validation_Precision_Avg=0.459575 Validation_Recall_Avg=0.382431
+[M-Step] Found Better Q: -658.669434 Write to File
+EM Iteration 3
+[E-Step][Diag] energy_level=0 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][T+4152.11s]Completed E-step processing: Time Elapsed = 171.45 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+4218.68s]Loss=-659.608 Prev Loss=-1.79769e+308 Time Escaped: 66.57s
+2.[T+4287.47s]Loss=-659.384 Prev Loss=-659.608 Time Escaped: 68.79s
+3.[T+4355.90s]Loss=-659.159 Prev Loss=-659.384 Time Escaped: 68.43s
+4.[T+4424.82s]Loss=-658.907 Prev Loss=-659.159 Time Escaped: 68.93s
+5.[T+4493.23s]Loss=-658.651 Prev Loss=-658.907 Time Escaped: 68.41s
+Gradient ascent converged after 5 iterations
+[M-Step][T+4493.231934s]Completed M-step update: Time Elapsed = 341.12
+[M-Step][T+4687.14s]Loss=-658.651306 Loss_Avg=-5.488761
+Loss_Ratio= 0.000028 Prev_Loss=-658.669434 Best_Loss=-658.669434
+Dice_Avg=0.373127 DotProduct_Avg=0.632009
+Precision_Avg=0.549345 Recall_Avg=0.312703
+Validation_Loss_Total=-54.845493 Validation_Loss_Avg=-4.985954
+Validation_Dice_Avg=0.397051 Validation_DotProduct_Avg=0.587285
+Validation_Precision_Avg=0.454185 Validation_Recall_Avg=0.382431
+[M-Step] Found Better Q: -658.651306 Write to File
+EM Iteration 4
+[E-Step][Diag] energy_level=0 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][T+4859.86s]Completed E-step processing: Time Elapsed = 172.49 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+4929.24s]Loss=-656.81 Prev Loss=-1.79769e+308 Time Escaped: 69.38s
+2.[T+4998.44s]Loss=-656.593 Prev Loss=-656.81 Time Escaped: 69.19s
+3.[T+5066.26s]Loss=-656.363 Prev Loss=-656.593 Time Escaped: 67.83s
+4.[T+5135.79s]Loss=-656.118 Prev Loss=-656.363 Time Escaped: 69.52s
+5.[T+5206.06s]Loss=-655.873 Prev Loss=-656.118 Time Escaped: 70.28s
+Gradient ascent converged after 5 iterations
+[M-Step][T+5206.064941s]Completed M-step update: Time Elapsed = 346.21
+[M-Step][T+5400.39s]Loss=-655.873474 Loss_Avg=-5.465612
+Loss_Ratio= 0.004235 Prev_Loss=-658.651306 Best_Loss=-658.651306
+Dice_Avg=0.372639 DotProduct_Avg=0.631518
+Precision_Avg=0.542400 Recall_Avg=0.314703
+Validation_Loss_Total=-54.791462 Validation_Loss_Avg=-4.981042
+Validation_Dice_Avg=0.392519 Validation_DotProduct_Avg=0.585692
+Validation_Precision_Avg=0.442904 Validation_Recall_Avg=0.382431
+[M-Step] Found Better Q: -655.873474 Write to File
+EM Iteration 5
+[E-Step][Diag] energy_level=0 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e0)=0 group=0
+[E-Step][T+5572.65s]Completed E-step processing: Time Elapsed = 172.02 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+5642.51s]Loss=-656.494 Prev Loss=-1.79769e+308 Time Escaped: 69.86s
+2.[T+5711.25s]Loss=-656.241 Prev Loss=-656.494 Time Escaped: 68.74s
+3.[T+5782.25s]Loss=-656.039 Prev Loss=-656.241 Time Escaped: 71.00s
+4.[T+5852.33s]Loss=-655.835 Prev Loss=-656.039 Time Escaped: 70.08s
+5.[T+5922.28s]Loss=-655.615 Prev Loss=-655.835 Time Escaped: 69.95s
+Gradient ascent converged after 5 iterations
+[M-Step][T+5922.287109s]Completed M-step update: Time Elapsed = 349.64
+[M-Step][T+6118.15s]Loss=-655.615417 Loss_Avg=-5.463462
+Loss_Ratio= 0.000394 Prev_Loss=-655.873474 Best_Loss=-655.873474
+Dice_Avg=0.373671 DotProduct_Avg=0.636135
+Precision_Avg=0.558219 Recall_Avg=0.309953
+Validation_Loss_Total=-54.803913 Validation_Loss_Avg=-4.982174
+Validation_Dice_Avg=0.391373 Validation_DotProduct_Avg=0.587838
+Validation_Precision_Avg=0.443362 Validation_Recall_Avg=0.377886
+[M-Step] Found Better Q: -655.615417 Write to File
+EM Stopped after 3 No Progress Iterations
+EM Converged after 5 iterations
+Found better Q!
+[Training] Energy 0 completed
+[Training] ================================================
+[Training] Starting Energy 1 (2/3)
+[Training] ================================================
+EM: Initial params provided from pretrained/param_output.log
+EM_NN: Initial params provided from pretrained/param_output.log
+EM Iteration 0
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+174.81s]Completed E-step processing: Time Elapsed = 174.33 s
+[M-SteP]Learning_Rate=0.0001
+[M-Step][T+319.58s]Collect Used Index, Time Used: 144.77s
+1.[T+394.96s]Loss=-851.417 Prev Loss=-1.79769e+308 Time Escaped: 75.38s
+2.[T+468.64s]Loss=-843.419 Prev Loss=-851.417 Time Escaped: 73.68s
+3.[T+541.76s]Loss=-835.82 Prev Loss=-843.419 Time Escaped: 73.12s
+4.[T+614.69s]Loss=-828.883 Prev Loss=-835.82 Time Escaped: 72.93s
+5.[T+690.58s]Loss=-823.158 Prev Loss=-828.883 Time Escaped: 75.89s
+6.[T+764.61s]Loss=-818.224 Prev Loss=-823.158 Time Escaped: 74.03s
+7.[T+839.64s]Loss=-813.744 Prev Loss=-818.224 Time Escaped: 75.03s
+8.[T+914.69s]Loss=-810.268 Prev Loss=-813.744 Time Escaped: 75.05s
+9.[T+990.81s]Loss=-807.275 Prev Loss=-810.268 Time Escaped: 76.12s
+10.[T+1064.48s]Loss=-804.761 Prev Loss=-807.275 Time Escaped: 73.68s
+11.[T+1139.95s]Loss=-802.592 Prev Loss=-804.761 Time Escaped: 75.47s
+12.[T+1214.63s]Loss=-800.617 Prev Loss=-802.592 Time Escaped: 74.68s
+13.[T+1290.85s]Loss=-798.826 Prev Loss=-800.617 Time Escaped: 76.22s
+14.[T+1365.82s]Loss=-797.234 Prev Loss=-798.826 Time Escaped: 74.96s
+15.[T+1440.99s]Loss=-795.726 Prev Loss=-797.234 Time Escaped: 75.18s
+16.[T+1515.74s]Loss=-794.415 Prev Loss=-795.726 Time Escaped: 74.75s
+17.[T+1590.35s]Loss=-793.286 Prev Loss=-794.415 Time Escaped: 74.60s
+18.[T+1664.84s]Loss=-792.248 Prev Loss=-793.286 Time Escaped: 74.49s
+19.[T+1737.81s]Loss=-791.266 Prev Loss=-792.248 Time Escaped: 72.96s
+20.[T+1811.45s]Loss=-790.389 Prev Loss=-791.266 Time Escaped: 73.64s
+Gradient ascent converged after 20 iterations
+[M-Step][T+1811.452026s]Completed M-step update: Time Elapsed = 1636.64
+[M-Step][T+2009.09s]Loss=-790.389160 Loss_Avg=-6.586576
+Dice_Avg=0.334443 DotProduct_Avg=0.484208
+Precision_Avg=0.354276 Recall_Avg=0.348251
+Validation_Loss_Total=-66.214333 Validation_Loss_Avg=-6.019485
+Validation_Dice_Avg=0.326218 Validation_DotProduct_Avg=0.462931
+Validation_Precision_Avg=0.282840 Validation_Recall_Avg=0.391991
+[M-Step] Found Better Q: -790.389160 Write to File
+EM Iteration 1
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+2183.02s]Completed E-step processing: Time Elapsed = 173.70 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+2256.70s]Loss=-751.626 Prev Loss=-1.79769e+308 Time Escaped: 73.68s
+2.[T+2330.52s]Loss=-749.108 Prev Loss=-751.626 Time Escaped: 73.82s
+3.[T+2403.31s]Loss=-747.085 Prev Loss=-749.108 Time Escaped: 72.78s
+4.[T+2476.74s]Loss=-745.563 Prev Loss=-747.085 Time Escaped: 73.43s
+5.[T+2551.06s]Loss=-744.421 Prev Loss=-745.563 Time Escaped: 74.32s
+6.[T+2624.76s]Loss=-743.385 Prev Loss=-744.421 Time Escaped: 73.70s
+7.[T+2698.07s]Loss=-742.292 Prev Loss=-743.385 Time Escaped: 73.31s
+8.[T+2772.68s]Loss=-741.305 Prev Loss=-742.292 Time Escaped: 74.61s
+9.[T+2846.38s]Loss=-740.306 Prev Loss=-741.305 Time Escaped: 73.70s
+10.[T+2919.36s]Loss=-739.267 Prev Loss=-740.306 Time Escaped: 72.98s
+11.[T+2993.41s]Loss=-738.35 Prev Loss=-739.267 Time Escaped: 74.05s
+12.[T+3067.29s]Loss=-737.536 Prev Loss=-738.35 Time Escaped: 73.89s
+13.[T+3141.42s]Loss=-736.862 Prev Loss=-737.536 Time Escaped: 74.12s
+14.[T+3215.03s]Loss=-736.261 Prev Loss=-736.862 Time Escaped: 73.61s
+15.[T+3288.24s]Loss=-735.691 Prev Loss=-736.261 Time Escaped: 73.21s
+16.[T+3361.04s]Loss=-735.164 Prev Loss=-735.691 Time Escaped: 72.80s
+Gradient ascent converged after 16 iterations
+[M-Step][T+3361.044922s]Completed M-step update: Time Elapsed = 1178.03
+[M-Step][T+3557.57s]Loss=-735.164246 Loss_Avg=-6.126369
+Loss_Ratio= 0.075119 Prev_Loss=-790.389160 Best_Loss=-790.389160
+Dice_Avg=0.349032 DotProduct_Avg=0.568443
+Precision_Avg=0.393333 Recall_Avg=0.344686
+Validation_Loss_Total=-62.491943 Validation_Loss_Avg=-5.681086
+Validation_Dice_Avg=0.340271 Validation_DotProduct_Avg=0.512585
+Validation_Precision_Avg=0.309948 Validation_Recall_Avg=0.389214
+[M-Step] Found Better Q: -735.164246 Write to File
+EM Iteration 2
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+3730.22s]Completed E-step processing: Time Elapsed = 172.42 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+3803.19s]Loss=-711.483 Prev Loss=-1.79769e+308 Time Escaped: 72.97s
+2.[T+3875.40s]Loss=-710.43 Prev Loss=-711.483 Time Escaped: 72.21s
+3.[T+3949.51s]Loss=-709.22 Prev Loss=-710.43 Time Escaped: 74.11s
+4.[T+4021.58s]Loss=-708.403 Prev Loss=-709.22 Time Escaped: 72.07s
+5.[T+4094.04s]Loss=-707.644 Prev Loss=-708.403 Time Escaped: 72.46s
+6.[T+4168.72s]Loss=-706.803 Prev Loss=-707.644 Time Escaped: 74.68s
+7.[T+4242.05s]Loss=-706.094 Prev Loss=-706.803 Time Escaped: 73.33s
+8.[T+4315.48s]Loss=-705.482 Prev Loss=-706.094 Time Escaped: 73.42s
+9.[T+4389.77s]Loss=-704.82 Prev Loss=-705.482 Time Escaped: 74.30s
+10.[T+4462.61s]Loss=-704.148 Prev Loss=-704.82 Time Escaped: 72.84s
+11.[T+4535.75s]Loss=-703.515 Prev Loss=-704.148 Time Escaped: 73.13s
+Gradient ascent converged after 11 iterations
+[M-Step][T+4535.749023s]Completed M-step update: Time Elapsed = 805.53
+[M-Step][T+4728.63s]Loss=-703.515015 Loss_Avg=-5.862625
+Loss_Ratio= 0.044987 Prev_Loss=-735.164246 Best_Loss=-735.164246
+Dice_Avg=0.361916 DotProduct_Avg=0.608029
+Precision_Avg=0.438093 Recall_Avg=0.340019
+Validation_Loss_Total=-60.529419 Validation_Loss_Avg=-5.502674
+Validation_Dice_Avg=0.348940 Validation_DotProduct_Avg=0.536750
+Validation_Precision_Avg=0.333806 Validation_Recall_Avg=0.384668
+[M-Step] Found Better Q: -703.515015 Write to File
+EM Iteration 3
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+4900.66s]Completed E-step processing: Time Elapsed = 171.80 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+4975.70s]Loss=-691.564 Prev Loss=-1.79769e+308 Time Escaped: 75.03s
+2.[T+5049.04s]Loss=-690.888 Prev Loss=-691.564 Time Escaped: 73.35s
+3.[T+5122.95s]Loss=-690.591 Prev Loss=-690.888 Time Escaped: 73.91s
+4.[T+5196.78s]Loss=-690.192 Prev Loss=-690.591 Time Escaped: 73.83s
+5.[T+5271.25s]Loss=-689.504 Prev Loss=-690.192 Time Escaped: 74.47s
+Gradient ascent converged after 5 iterations
+[M-Step][T+5271.249023s]Completed M-step update: Time Elapsed = 370.59
+[M-Step][T+5465.83s]Loss=-689.503967 Loss_Avg=-5.745866
+Loss_Ratio= 0.020320 Prev_Loss=-703.515015 Best_Loss=-703.515015
+Dice_Avg=0.367267 DotProduct_Avg=0.613484
+Precision_Avg=0.446306 Recall_Avg=0.345002
+Validation_Loss_Total=-59.865883 Validation_Loss_Avg=-5.442353
+Validation_Dice_Avg=0.364102 Validation_DotProduct_Avg=0.539756
+Validation_Precision_Avg=0.350240 Validation_Recall_Avg=0.402633
+[M-Step] Found Better Q: -689.503967 Write to File
+EM Iteration 4
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+5638.96s]Completed E-step processing: Time Elapsed = 172.91 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+5713.49s]Loss=-688.523 Prev Loss=-1.79769e+308 Time Escaped: 74.53s
+2.[T+5787.96s]Loss=-688.389 Prev Loss=-688.523 Time Escaped: 74.47s
+3.[T+5862.06s]Loss=-687.378 Prev Loss=-688.389 Time Escaped: 74.10s
+4.[T+5937.46s]Loss=-686.217 Prev Loss=-687.378 Time Escaped: 75.40s
+5.[T+6011.84s]Loss=-685.494 Prev Loss=-686.217 Time Escaped: 74.38s
+6.[T+6087.09s]Loss=-684.883 Prev Loss=-685.494 Time Escaped: 75.25s
+7.[T+6161.43s]Loss=-684.547 Prev Loss=-684.883 Time Escaped: 74.34s
+8.[T+6235.61s]Loss=-684.268 Prev Loss=-684.547 Time Escaped: 74.18s
+9.[T+6309.12s]Loss=-684.035 Prev Loss=-684.268 Time Escaped: 73.50s
+Gradient ascent converged after 9 iterations
+[M-Step][T+6309.121094s]Completed M-step update: Time Elapsed = 670.16
+[M-Step][T+6502.88s]Loss=-684.034607 Loss_Avg=-5.700288
+Loss_Ratio= 0.007996 Prev_Loss=-689.503967 Best_Loss=-689.503967
+Dice_Avg=0.375015 DotProduct_Avg=0.631250
+Precision_Avg=0.487316 Recall_Avg=0.338531
+Validation_Loss_Total=-59.391911 Validation_Loss_Avg=-5.399265
+Validation_Dice_Avg=0.363674 Validation_DotProduct_Avg=0.550363
+Validation_Precision_Avg=0.366022 Validation_Recall_Avg=0.389214
+[M-Step] Found Better Q: -684.034607 Write to File
+EM Iteration 5
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+6677.76s]Completed E-step processing: Time Elapsed = 174.65 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+6750.27s]Loss=-675.918 Prev Loss=-1.79769e+308 Time Escaped: 72.51s
+2.[T+6823.53s]Loss=-675.647 Prev Loss=-675.918 Time Escaped: 73.26s
+3.[T+6897.74s]Loss=-675.394 Prev Loss=-675.647 Time Escaped: 74.21s
+4.[T+6971.58s]Loss=-675.211 Prev Loss=-675.394 Time Escaped: 73.84s
+5.[T+7045.46s]Loss=-675.098 Prev Loss=-675.211 Time Escaped: 73.88s
+Gradient ascent converged after 5 iterations
+[M-Step][T+7045.459961s]Completed M-step update: Time Elapsed = 367.70
+[M-Step][T+7239.57s]Loss=-675.098206 Loss_Avg=-5.625818
+Loss_Ratio= 0.013237 Prev_Loss=-684.034607 Best_Loss=-684.034607
+Dice_Avg=0.378616 DotProduct_Avg=0.632330
+Precision_Avg=0.486545 Recall_Avg=0.343281
+Validation_Loss_Total=-58.875351 Validation_Loss_Avg=-5.352305
+Validation_Dice_Avg=0.361727 Validation_DotProduct_Avg=0.548077
+Validation_Precision_Avg=0.359885 Validation_Recall_Avg=0.391234
+[M-Step] Found Better Q: -675.098206 Write to File
+EM Iteration 6
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+7412.53s]Completed E-step processing: Time Elapsed = 172.73 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+7485.52s]Loss=-676.124 Prev Loss=-1.79769e+308 Time Escaped: 72.99s
+2.[T+7559.33s]Loss=-675.933 Prev Loss=-676.124 Time Escaped: 73.81s
+3.[T+7633.87s]Loss=-675.695 Prev Loss=-675.933 Time Escaped: 74.54s
+4.[T+7707.05s]Loss=-675.532 Prev Loss=-675.695 Time Escaped: 73.18s
+5.[T+7780.56s]Loss=-675.399 Prev Loss=-675.532 Time Escaped: 73.51s
+Gradient ascent converged after 5 iterations
+[M-Step][T+7780.565918s]Completed M-step update: Time Elapsed = 368.03
+[M-Step][T+7974.71s]Loss=-675.399414 Loss_Avg=-5.628328
+Loss_Ratio= 0.000446 Prev_Loss=-675.098206 Best_Loss=-675.098206
+Dice_Avg=0.379070 DotProduct_Avg=0.637393
+Precision_Avg=0.498733 Recall_Avg=0.339281
+Validation_Loss_Total=-59.030064 Validation_Loss_Avg=-5.366369
+Validation_Dice_Avg=0.368565 Validation_DotProduct_Avg=0.558969
+Validation_Precision_Avg=0.372343 Validation_Recall_Avg=0.395779
+EM Iteration 7
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+8148.74s]Completed E-step processing: Time Elapsed = 174.01 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+8222.56s]Loss=-672.378 Prev Loss=-1.79769e+308 Time Escaped: 73.81s
+2.[T+8296.44s]Loss=-672.16 Prev Loss=-672.378 Time Escaped: 73.88s
+3.[T+8369.97s]Loss=-671.988 Prev Loss=-672.16 Time Escaped: 73.53s
+4.[T+8444.74s]Loss=-671.837 Prev Loss=-671.988 Time Escaped: 74.77s
+5.[T+8519.20s]Loss=-671.714 Prev Loss=-671.837 Time Escaped: 74.45s
+Gradient ascent converged after 5 iterations
+[M-Step][T+8519.199219s]Completed M-step update: Time Elapsed = 370.45
+[M-Step][T+8712.27s]Loss=-671.714294 Loss_Avg=-5.597619
+Loss_Ratio= 0.005486 Prev_Loss=-675.399414 Best_Loss=-675.098206
+Dice_Avg=0.379871 DotProduct_Avg=0.636801
+Precision_Avg=0.490204 Recall_Avg=0.344035
+Validation_Loss_Total=-58.868420 Validation_Loss_Avg=-5.351675
+Validation_Dice_Avg=0.360673 Validation_DotProduct_Avg=0.555014
+Validation_Precision_Avg=0.361345 Validation_Recall_Avg=0.391234
+[M-Step] Found Better Q: -671.714294 Write to File
+EM Iteration 8
+[E-Step][Diag] energy_level=1 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e1)=0 group=0
+[E-Step][T+8883.43s]Completed E-step processing: Time Elapsed = 170.94 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+8957.48s]Loss=-674.397 Prev Loss=-1.79769e+308 Time Escaped: 74.04s
+2.[T+9032.32s]Loss=-674.185 Prev Loss=-674.397 Time Escaped: 74.83s
+3.[T+9106.21s]Loss=-673.917 Prev Loss=-674.185 Time Escaped: 73.89s
+4.[T+9180.37s]Loss=-673.719 Prev Loss=-673.917 Time Escaped: 74.16s
+5.[T+9255.34s]Loss=-673.537 Prev Loss=-673.719 Time Escaped: 74.97s
+Gradient ascent converged after 5 iterations
+[M-Step][T+9255.339844s]Completed M-step update: Time Elapsed = 371.90
+[M-Step][T+9451.46s]Loss=-673.536621 Loss_Avg=-5.612805
+Loss_Ratio= 0.002706 Prev_Loss=-671.714294 Best_Loss=-671.714294
+Dice_Avg=0.383537 DotProduct_Avg=0.638490
+Precision_Avg=0.499159 Recall_Avg=0.345368
+Validation_Loss_Total=-58.992092 Validation_Loss_Avg=-5.362917
+Validation_Dice_Avg=0.359475 Validation_DotProduct_Avg=0.559825
+Validation_Precision_Avg=0.363126 Validation_Recall_Avg=0.387446
+EM Stopped after 3 No Progress Iterations
+EM Converged after 8 iterations
+Found better Q!
+[Training] Energy 1 completed
+[Training] ================================================
+[Training] Starting Energy 2 (3/3)
+[Training] ================================================
+EM: Initial params provided from pretrained/param_output.log
+EM_NN: Initial params provided from pretrained/param_output.log
+EM Iteration 0
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+173.20s]Completed E-step processing: Time Elapsed = 172.73 s
+[M-SteP]Learning_Rate=0.0001
+[M-Step][T+316.46s]Collect Used Index, Time Used: 143.25s
+1.[T+399.72s]Loss=-1241.87 Prev Loss=-1.79769e+308 Time Escaped: 83.26s
+2.[T+482.59s]Loss=-1230.6 Prev Loss=-1241.87 Time Escaped: 82.87s
+3.[T+564.09s]Loss=-1219.84 Prev Loss=-1230.6 Time Escaped: 81.50s
+4.[T+647.03s]Loss=-1209.68 Prev Loss=-1219.84 Time Escaped: 82.93s
+5.[T+731.11s]Loss=-1199.91 Prev Loss=-1209.68 Time Escaped: 84.08s
+6.[T+814.45s]Loss=-1190.52 Prev Loss=-1199.91 Time Escaped: 83.34s
+7.[T+897.05s]Loss=-1181.58 Prev Loss=-1190.52 Time Escaped: 82.60s
+8.[T+980.38s]Loss=-1172.94 Prev Loss=-1181.58 Time Escaped: 83.34s
+9.[T+1063.93s]Loss=-1164.77 Prev Loss=-1172.94 Time Escaped: 83.55s
+10.[T+1146.15s]Loss=-1156.94 Prev Loss=-1164.77 Time Escaped: 82.22s
+11.[T+1229.46s]Loss=-1149.45 Prev Loss=-1156.94 Time Escaped: 83.31s
+12.[T+1313.45s]Loss=-1142.27 Prev Loss=-1149.45 Time Escaped: 83.99s
+13.[T+1396.73s]Loss=-1135.5 Prev Loss=-1142.27 Time Escaped: 83.28s
+14.[T+1479.30s]Loss=-1128.93 Prev Loss=-1135.5 Time Escaped: 82.56s
+15.[T+1562.85s]Loss=-1122.41 Prev Loss=-1128.93 Time Escaped: 83.55s
+16.[T+1645.65s]Loss=-1116.04 Prev Loss=-1122.41 Time Escaped: 82.80s
+17.[T+1728.87s]Loss=-1109.82 Prev Loss=-1116.04 Time Escaped: 83.23s
+18.[T+1812.05s]Loss=-1103.82 Prev Loss=-1109.82 Time Escaped: 83.18s
+19.[T+1893.86s]Loss=-1098.11 Prev Loss=-1103.82 Time Escaped: 81.80s
+20.[T+1977.52s]Loss=-1092.67 Prev Loss=-1098.11 Time Escaped: 83.66s
+Gradient ascent converged after 20 iterations
+[M-Step][T+1977.522949s]Completed M-step update: Time Elapsed = 1804.32
+[M-Step][T+2172.41s]Loss=-1092.665527 Loss_Avg=-9.105546
+Dice_Avg=0.218883 DotProduct_Avg=0.054340
+Precision_Avg=0.233333 Recall_Avg=0.227410
+Validation_Loss_Total=-93.805695 Validation_Loss_Avg=-8.527790
+Validation_Dice_Avg=0.190220 Validation_DotProduct_Avg=0.081045
+Validation_Precision_Avg=0.164223 Validation_Recall_Avg=0.231169
+[M-Step] Found Better Q: -1092.665527 Write to File
+EM Iteration 1
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+2343.39s]Completed E-step processing: Time Elapsed = 170.75 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+2421.35s]Loss=-1092.11 Prev Loss=-1.79769e+308 Time Escaped: 77.96s
+2.[T+2499.78s]Loss=-1083.73 Prev Loss=-1092.11 Time Escaped: 78.43s
+3.[T+2579.57s]Loss=-1075.65 Prev Loss=-1083.73 Time Escaped: 79.79s
+4.[T+2657.43s]Loss=-1067.97 Prev Loss=-1075.65 Time Escaped: 77.85s
+5.[T+2736.04s]Loss=-1060.71 Prev Loss=-1067.97 Time Escaped: 78.61s
+6.[T+2812.33s]Loss=-1053.66 Prev Loss=-1060.71 Time Escaped: 76.29s
+7.[T+2891.62s]Loss=-1047.08 Prev Loss=-1053.66 Time Escaped: 79.29s
+8.[T+2970.91s]Loss=-1040.9 Prev Loss=-1047.08 Time Escaped: 79.29s
+9.[T+3050.75s]Loss=-1035 Prev Loss=-1040.9 Time Escaped: 79.84s
+10.[T+3128.12s]Loss=-1029.28 Prev Loss=-1035 Time Escaped: 77.36s
+11.[T+3207.35s]Loss=-1023.75 Prev Loss=-1029.28 Time Escaped: 79.24s
+12.[T+3286.18s]Loss=-1018.48 Prev Loss=-1023.75 Time Escaped: 78.82s
+13.[T+3364.54s]Loss=-1013.58 Prev Loss=-1018.48 Time Escaped: 78.36s
+14.[T+3443.89s]Loss=-1009 Prev Loss=-1013.58 Time Escaped: 79.35s
+15.[T+3522.85s]Loss=-1004.55 Prev Loss=-1009 Time Escaped: 78.96s
+16.[T+3602.17s]Loss=-1000.16 Prev Loss=-1004.55 Time Escaped: 79.32s
+17.[T+3680.68s]Loss=-995.877 Prev Loss=-1000.16 Time Escaped: 78.51s
+18.[T+3759.28s]Loss=-991.816 Prev Loss=-995.877 Time Escaped: 78.60s
+19.[T+3839.15s]Loss=-988.043 Prev Loss=-991.816 Time Escaped: 79.87s
+20.[T+3918.79s]Loss=-984.61 Prev Loss=-988.043 Time Escaped: 79.64s
+Gradient ascent converged after 20 iterations
+[M-Step][T+3918.797119s]Completed M-step update: Time Elapsed = 1575.41
+[M-Step][T+4114.27s]Loss=-984.609741 Loss_Avg=-8.205081
+Loss_Ratio= 0.109745 Prev_Loss=-1092.665527 Best_Loss=-1092.665527
+Dice_Avg=0.274879 DotProduct_Avg=0.229578
+Precision_Avg=0.287097 Recall_Avg=0.291160
+Validation_Loss_Total=-82.113091 Validation_Loss_Avg=-7.464826
+Validation_Dice_Avg=0.240062 Validation_DotProduct_Avg=0.263209
+Validation_Precision_Avg=0.205279 Validation_Recall_Avg=0.294589
+[M-Step] Found Better Q: -984.609741 Write to File
+EM Iteration 2
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+4284.64s]Completed E-step processing: Time Elapsed = 170.14 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+4357.18s]Loss=-962.294 Prev Loss=-1.79769e+308 Time Escaped: 72.53s
+2.[T+4429.01s]Loss=-956.907 Prev Loss=-962.294 Time Escaped: 71.84s
+3.[T+4499.83s]Loss=-952.34 Prev Loss=-956.907 Time Escaped: 70.82s
+4.[T+4571.86s]Loss=-948.173 Prev Loss=-952.34 Time Escaped: 72.03s
+5.[T+4643.42s]Loss=-944.216 Prev Loss=-948.173 Time Escaped: 71.56s
+6.[T+4716.15s]Loss=-940.419 Prev Loss=-944.216 Time Escaped: 72.73s
+7.[T+4786.95s]Loss=-936.79 Prev Loss=-940.419 Time Escaped: 70.80s
+8.[T+4858.67s]Loss=-933.311 Prev Loss=-936.79 Time Escaped: 71.72s
+9.[T+4931.41s]Loss=-929.94 Prev Loss=-933.311 Time Escaped: 72.74s
+10.[T+5004.00s]Loss=-926.785 Prev Loss=-929.94 Time Escaped: 72.59s
+11.[T+5074.82s]Loss=-923.723 Prev Loss=-926.785 Time Escaped: 70.82s
+12.[T+5146.91s]Loss=-920.863 Prev Loss=-923.723 Time Escaped: 72.09s
+13.[T+5219.46s]Loss=-918.337 Prev Loss=-920.863 Time Escaped: 72.55s
+14.[T+5291.06s]Loss=-916.006 Prev Loss=-918.337 Time Escaped: 71.59s
+15.[T+5363.19s]Loss=-913.593 Prev Loss=-916.006 Time Escaped: 72.13s
+16.[T+5435.56s]Loss=-911.304 Prev Loss=-913.593 Time Escaped: 72.36s
+17.[T+5506.38s]Loss=-909.23 Prev Loss=-911.304 Time Escaped: 70.82s
+18.[T+5577.83s]Loss=-907.178 Prev Loss=-909.23 Time Escaped: 71.46s
+19.[T+5649.72s]Loss=-905.25 Prev Loss=-907.178 Time Escaped: 71.89s
+20.[T+5721.96s]Loss=-903.477 Prev Loss=-905.25 Time Escaped: 72.24s
+Gradient ascent converged after 20 iterations
+[M-Step][T+5721.962891s]Completed M-step update: Time Elapsed = 1437.32
+[M-Step][T+5916.65s]Loss=-903.476685 Loss_Avg=-7.528972
+Loss_Ratio= 0.089801 Prev_Loss=-984.609741 Best_Loss=-984.609741
+Dice_Avg=0.289844 DotProduct_Avg=0.370216
+Precision_Avg=0.302419 Recall_Avg=0.307234
+Validation_Loss_Total=-75.904732 Validation_Loss_Avg=-6.900430
+Validation_Dice_Avg=0.267663 Validation_DotProduct_Avg=0.368722
+Validation_Precision_Avg=0.228739 Validation_Recall_Avg=0.328716
+[M-Step] Found Better Q: -903.476685 Write to File
+EM Iteration 3
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+6087.02s]Completed E-step processing: Time Elapsed = 170.14 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+6158.52s]Loss=-876.786 Prev Loss=-1.79769e+308 Time Escaped: 71.49s
+2.[T+6229.23s]Loss=-873.508 Prev Loss=-876.786 Time Escaped: 70.71s
+3.[T+6301.60s]Loss=-870.675 Prev Loss=-873.508 Time Escaped: 72.37s
+4.[T+6373.34s]Loss=-868.235 Prev Loss=-870.675 Time Escaped: 71.74s
+5.[T+6444.30s]Loss=-866.04 Prev Loss=-868.235 Time Escaped: 70.96s
+6.[T+6515.80s]Loss=-864.258 Prev Loss=-866.04 Time Escaped: 71.50s
+7.[T+6587.41s]Loss=-862.811 Prev Loss=-864.258 Time Escaped: 71.61s
+8.[T+6659.23s]Loss=-861.549 Prev Loss=-862.811 Time Escaped: 71.81s
+9.[T+6730.89s]Loss=-860.323 Prev Loss=-861.549 Time Escaped: 71.66s
+10.[T+6802.21s]Loss=-859.376 Prev Loss=-860.323 Time Escaped: 71.33s
+11.[T+6873.35s]Loss=-858.439 Prev Loss=-859.376 Time Escaped: 71.14s
+12.[T+6944.62s]Loss=-857.649 Prev Loss=-858.439 Time Escaped: 71.26s
+13.[T+7016.04s]Loss=-856.889 Prev Loss=-857.649 Time Escaped: 71.43s
+14.[T+7087.39s]Loss=-856.048 Prev Loss=-856.889 Time Escaped: 71.34s
+15.[T+7158.63s]Loss=-855.084 Prev Loss=-856.048 Time Escaped: 71.24s
+16.[T+7229.37s]Loss=-854.11 Prev Loss=-855.084 Time Escaped: 70.74s
+17.[T+7300.63s]Loss=-853.265 Prev Loss=-854.11 Time Escaped: 71.26s
+18.[T+7371.95s]Loss=-852.575 Prev Loss=-853.265 Time Escaped: 71.32s
+19.[T+7443.70s]Loss=-851.827 Prev Loss=-852.575 Time Escaped: 71.75s
+20.[T+7514.91s]Loss=-851.286 Prev Loss=-851.827 Time Escaped: 71.21s
+Gradient ascent converged after 20 iterations
+[M-Step][T+7514.913086s]Completed M-step update: Time Elapsed = 1427.89
+[M-Step][T+7709.19s]Loss=-851.286072 Loss_Avg=-7.094051
+Loss_Ratio= 0.061308 Prev_Loss=-903.476685 Best_Loss=-903.476685
+Dice_Avg=0.300379 DotProduct_Avg=0.454297
+Precision_Avg=0.312097 Recall_Avg=0.319619
+Validation_Loss_Total=-72.865128 Validation_Loss_Avg=-6.624103
+Validation_Dice_Avg=0.288065 Validation_DotProduct_Avg=0.430634
+Validation_Precision_Avg=0.246334 Validation_Recall_Avg=0.353535
+[M-Step] Found Better Q: -851.286072 Write to File
+EM Iteration 4
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+7880.07s]Completed E-step processing: Time Elapsed = 170.65 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+7952.52s]Loss=-833.031 Prev Loss=-1.79769e+308 Time Escaped: 72.45s
+2.[T+8024.85s]Loss=-832.095 Prev Loss=-833.031 Time Escaped: 72.32s
+3.[T+8096.20s]Loss=-830.857 Prev Loss=-832.095 Time Escaped: 71.35s
+4.[T+8168.26s]Loss=-829.773 Prev Loss=-830.857 Time Escaped: 72.06s
+5.[T+8240.20s]Loss=-828.51 Prev Loss=-829.773 Time Escaped: 71.94s
+6.[T+8311.93s]Loss=-827.329 Prev Loss=-828.51 Time Escaped: 71.73s
+7.[T+8383.15s]Loss=-826.142 Prev Loss=-827.329 Time Escaped: 71.22s
+8.[T+8455.53s]Loss=-825.136 Prev Loss=-826.142 Time Escaped: 72.38s
+9.[T+8527.82s]Loss=-824.355 Prev Loss=-825.136 Time Escaped: 72.28s
+10.[T+8599.31s]Loss=-823.707 Prev Loss=-824.355 Time Escaped: 71.49s
+11.[T+8671.18s]Loss=-823.246 Prev Loss=-823.707 Time Escaped: 71.87s
+12.[T+8743.06s]Loss=-822.935 Prev Loss=-823.246 Time Escaped: 71.88s
+Gradient ascent converged after 12 iterations
+[M-Step][T+8743.066406s]Completed M-step update: Time Elapsed = 862.99
+[M-Step][T+8936.97s]Loss=-822.935425 Loss_Avg=-6.857795
+Loss_Ratio= 0.034451 Prev_Loss=-851.286072 Best_Loss=-851.286072
+Dice_Avg=0.309350 DotProduct_Avg=0.496772
+Precision_Avg=0.321446 Recall_Avg=0.329266
+Validation_Loss_Total=-71.411278 Validation_Loss_Avg=-6.491934
+Validation_Dice_Avg=0.296898 Validation_DotProduct_Avg=0.454289
+Validation_Precision_Avg=0.252199 Validation_Recall_Avg=0.366667
+[M-Step] Found Better Q: -822.935425 Write to File
+EM Iteration 5
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+9111.10s]Completed E-step processing: Time Elapsed = 173.90 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+9182.52s]Loss=-805.242 Prev Loss=-1.79769e+308 Time Escaped: 71.42s
+2.[T+9255.05s]Loss=-804.346 Prev Loss=-805.242 Time Escaped: 72.53s
+3.[T+9327.23s]Loss=-803.678 Prev Loss=-804.346 Time Escaped: 72.18s
+4.[T+9399.20s]Loss=-803.283 Prev Loss=-803.678 Time Escaped: 71.96s
+5.[T+9470.57s]Loss=-803.014 Prev Loss=-803.283 Time Escaped: 71.37s
+6.[T+9542.25s]Loss=-802.595 Prev Loss=-803.014 Time Escaped: 71.69s
+Gradient ascent converged after 6 iterations
+[M-Step][T+9542.255859s]Completed M-step update: Time Elapsed = 431.16
+[M-Step][T+9735.16s]Loss=-802.595093 Loss_Avg=-6.688292
+Loss_Ratio= 0.025343 Prev_Loss=-822.935425 Best_Loss=-822.935425
+Dice_Avg=0.305376 DotProduct_Avg=0.507590
+Precision_Avg=0.318233 Recall_Avg=0.325002
+Validation_Loss_Total=-69.582237 Validation_Loss_Avg=-6.325658
+Validation_Dice_Avg=0.295084 Validation_DotProduct_Avg=0.468529
+Validation_Precision_Avg=0.251874 Validation_Recall_Avg=0.361905
+[M-Step] Found Better Q: -802.595093 Write to File
+EM Iteration 6
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+9908.31s]Completed E-step processing: Time Elapsed = 172.93 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+9978.12s]Loss=-794.628 Prev Loss=-1.79769e+308 Time Escaped: 69.81s
+2.[T+10048.27s]Loss=-793.807 Prev Loss=-794.628 Time Escaped: 70.15s
+3.[T+10118.46s]Loss=-792.888 Prev Loss=-793.807 Time Escaped: 70.20s
+4.[T+10188.24s]Loss=-792.2 Prev Loss=-792.888 Time Escaped: 69.78s
+5.[T+10258.37s]Loss=-791.668 Prev Loss=-792.2 Time Escaped: 70.13s
+6.[T+10328.62s]Loss=-791.27 Prev Loss=-791.668 Time Escaped: 70.25s
+7.[T+10398.94s]Loss=-790.672 Prev Loss=-791.27 Time Escaped: 70.31s
+Gradient ascent converged after 7 iterations
+[M-Step][T+10398.938477s]Completed M-step update: Time Elapsed = 490.63
+[M-Step][T+10595.92s]Loss=-790.671509 Loss_Avg=-6.588929
+Loss_Ratio= 0.015080 Prev_Loss=-802.595093 Best_Loss=-802.595093
+Dice_Avg=0.318248 DotProduct_Avg=0.526139
+Precision_Avg=0.333425 Recall_Avg=0.337428
+Validation_Loss_Total=-69.459541 Validation_Loss_Avg=-6.314504
+Validation_Dice_Avg=0.299758 Validation_DotProduct_Avg=0.468438
+Validation_Precision_Avg=0.257606 Validation_Recall_Avg=0.364430
+[M-Step] Found Better Q: -790.671509 Write to File
+EM Iteration 7
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+10768.87s]Completed E-step processing: Time Elapsed = 172.72 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+10840.15s]Loss=-782.189 Prev Loss=-1.79769e+308 Time Escaped: 71.28s
+2.[T+10910.82s]Loss=-781.988 Prev Loss=-782.189 Time Escaped: 70.67s
+3.[T+10981.93s]Loss=-781.701 Prev Loss=-781.988 Time Escaped: 71.11s
+4.[T+11053.46s]Loss=-781.091 Prev Loss=-781.701 Time Escaped: 71.53s
+5.[T+11124.76s]Loss=-780.686 Prev Loss=-781.091 Time Escaped: 71.30s
+Gradient ascent converged after 5 iterations
+[M-Step][T+11124.764648s]Completed M-step update: Time Elapsed = 355.89
+[M-Step][T+11317.33s]Loss=-780.685974 Loss_Avg=-6.505716
+Loss_Ratio= 0.012791 Prev_Loss=-790.671509 Best_Loss=-790.671509
+Dice_Avg=0.316023 DotProduct_Avg=0.533381
+Precision_Avg=0.334589 Recall_Avg=0.331345
+Validation_Loss_Total=-68.584587 Validation_Loss_Avg=-6.234962
+Validation_Dice_Avg=0.312239 Validation_DotProduct_Avg=0.480581
+Validation_Precision_Avg=0.272301 Validation_Recall_Avg=0.372872
+[M-Step] Found Better Q: -780.685974 Write to File
+EM Iteration 8
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+11490.22s]Completed E-step processing: Time Elapsed = 172.66 s
+[M-SteP]Learning_Rate=0.0001
+1.[T+11561.07s]Loss=-778.759 Prev Loss=-1.79769e+308 Time Escaped: 70.85s
+2.[T+11631.90s]Loss=-779.106 Prev Loss=-778.759 Time Escaped: 70.83s
+3.[T+11703.63s]Loss=-779.715 Prev Loss=-779.106 Time Escaped: 71.74s
+4.[T+11774.49s]Loss=-779.937 Prev Loss=-779.715 Time Escaped: 70.85s
+5.[T+11846.04s]Loss=-779.783 Prev Loss=-779.937 Time Escaped: 71.55s
+Gradient ascent converged after 5 iterations
+[M-Step][T+11846.041992s]Completed M-step update: Time Elapsed = 355.82
+[M-Step][T+12040.02s]Loss=-779.783081 Loss_Avg=-6.498192
+Loss_Ratio= 0.001158 Prev_Loss=-780.685974 Best_Loss=-780.685974
+Dice_Avg=0.325426 DotProduct_Avg=0.531912
+Precision_Avg=0.339969 Recall_Avg=0.346011
+Validation_Loss_Total=-68.962212 Validation_Loss_Avg=-6.269292
+Validation_Dice_Avg=0.313070 Validation_DotProduct_Avg=0.470058
+Validation_Precision_Avg=0.268291 Validation_Recall_Avg=0.381962
+[M-Step] Found Better Q: -779.783081 Write to File
+EM Iteration 9
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+12211.03s]Completed E-step processing: Time Elapsed = 170.78 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+12282.07s]Loss=-780.501 Prev Loss=-1.79769e+308 Time Escaped: 71.04s
+2.[T+12353.16s]Loss=-780.142 Prev Loss=-780.501 Time Escaped: 71.09s
+3.[T+12423.23s]Loss=-779.808 Prev Loss=-780.142 Time Escaped: 70.07s
+4.[T+12494.17s]Loss=-779.585 Prev Loss=-779.808 Time Escaped: 70.93s
+5.[T+12564.25s]Loss=-779.375 Prev Loss=-779.585 Time Escaped: 70.08s
+Gradient ascent converged after 5 iterations
+[M-Step][T+12564.248047s]Completed M-step update: Time Elapsed = 353.22
+[M-Step][T+12758.65s]Loss=-779.374573 Loss_Avg=-6.494788
+Loss_Ratio= 0.000524 Prev_Loss=-779.783081 Best_Loss=-779.783081
+Dice_Avg=0.325258 DotProduct_Avg=0.536981
+Precision_Avg=0.341412 Recall_Avg=0.344511
+Validation_Loss_Total=-68.496338 Validation_Loss_Avg=-6.226940
+Validation_Dice_Avg=0.314339 Validation_DotProduct_Avg=0.477822
+Validation_Precision_Avg=0.270175 Validation_Recall_Avg=0.381962
+[M-Step] Found Better Q: -779.374573 Write to File
+EM Iteration 10
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+12933.29s]Completed E-step processing: Time Elapsed = 174.40 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+13004.52s]Loss=-778.21 Prev Loss=-1.79769e+308 Time Escaped: 71.23s
+2.[T+13075.68s]Loss=-777.914 Prev Loss=-778.21 Time Escaped: 71.16s
+3.[T+13146.26s]Loss=-777.463 Prev Loss=-777.914 Time Escaped: 70.58s
+4.[T+13217.53s]Loss=-777.132 Prev Loss=-777.463 Time Escaped: 71.27s
+5.[T+13288.03s]Loss=-776.737 Prev Loss=-777.132 Time Escaped: 70.50s
+Gradient ascent converged after 5 iterations
+[M-Step][T+13288.035156s]Completed M-step update: Time Elapsed = 354.75
+[M-Step][T+13482.35s]Loss=-776.736938 Loss_Avg=-6.472808
+Loss_Ratio= 0.003396 Prev_Loss=-779.374573 Best_Loss=-779.374573
+Dice_Avg=0.329009 DotProduct_Avg=0.543525
+Precision_Avg=0.346780 Recall_Avg=0.346845
+Validation_Loss_Total=-68.361847 Validation_Loss_Avg=-6.214713
+Validation_Dice_Avg=0.320611 Validation_DotProduct_Avg=0.484107
+Validation_Precision_Avg=0.277327 Validation_Recall_Avg=0.386508
+[M-Step] Found Better Q: -776.736938 Write to File
+EM Iteration 11
+[E-Step][Diag] energy_level=2 total=131 processed=131 skip_no_graph=0 skip_empty_spec=0 skip_val=0
+[E-Step][Diag] mol[0] id=HMDB0001514_376.20783_9.9 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[1] id=HMDB0001104_417.23438_15.7 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][Diag] mol[2] id=HMDB0042012_376.22308_14.5 nSpectra=3 hasGraph=1 emptySpec(e2)=0 group=0
+[E-Step][T+13656.16s]Completed E-step processing: Time Elapsed = 173.57 s
+[M-SteP]Learning_Rate=5e-05
+1.[T+13727.43s]Loss=-772.846 Prev Loss=-1.79769e+308 Time Escaped: 71.26s
+2.[T+13798.14s]Loss=-772.461 Prev Loss=-772.846 Time Escaped: 70.71s
+3.[T+13868.24s]Loss=-772.104 Prev Loss=-772.461 Time Escaped: 70.10s
+4.[T+13938.15s]Loss=-771.617 Prev Loss=-772.104 Time Escaped: 69.91s
+5.[T+14010.09s]Loss=-771.259 Prev Loss=-771.617 Time Escaped: 71.94s
+Gradient ascent converged after 5 iterations
+[M-Step][T+14010.088867s]Completed M-step update: Time Elapsed = 353.93
+[M-Step][T+14207.90s]Loss=-771.258789 Loss_Avg=-6.427157
+Loss_Ratio= 0.007103 Prev_Loss=-776.736938 Best_Loss=-776.736938
+Dice_Avg=0.327707 DotProduct_Avg=0.549796
+Precision_Avg=0.346874 Recall_Avg=0.344414
+Validation_Loss_Total=-68.060303 Validation_Loss_Avg=-6.187300
+Validation_Dice_Avg=0.313659 Validation_DotProduct_Avg=0.488436
+Validation_Precision_Avg=0.271737 Validation_Recall_Avg=0.377417
+[M-Step] Found Better Q: -771.258789 Write to File
+EM Stopped after 3 No Progress Iterations
+EM Converged after 11 iterations
+Found better Q!
+[Training] Energy 2 completed
+Done
+EM: Time Elaspsed = 29781 Seconds
+Generating Peak Predictions for Group 1...
+Done
