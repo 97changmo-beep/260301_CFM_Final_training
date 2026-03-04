@@ -190,6 +190,12 @@ for FOLD in $(seq 0 $((N_FOLDS - 1))); do
         echo "    docker logs $CONTAINER_NAME"
     fi
 
+    # Copy trained model from tmp_data to fold root
+    if [ -f "$FOLD_DIR/tmp_data/param_output1.log" ]; then
+        cp "$FOLD_DIR/tmp_data/param_output1.log" "$FOLD_DIR/param_output.log"
+        echo "  Copied tmp_data/param_output1.log -> param_output.log"
+    fi
+
     # Save container logs
     docker logs "$CONTAINER_NAME" > "$FOLD_DIR/training.log" 2>&1 || true
     docker rm -f "$CONTAINER_NAME" 2>/dev/null || true

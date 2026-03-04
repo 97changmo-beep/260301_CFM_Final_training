@@ -23,6 +23,7 @@ COPY patches/EmModel.cpp /tmp/patches/EmModel.cpp
 COPY patches/NNParam.cpp /tmp/patches/NNParam.cpp
 COPY patches/cfm_code_CMakeLists.txt /tmp/patches/cfm_code_CMakeLists.txt
 COPY patches/cfm-train-main.cpp /tmp/patches/cfm-train-main.cpp
+COPY patches/cfm-predict-main.cpp /tmp/patches/cfm-predict-main.cpp
 
 ARG MSML_VERSION="4.4.10"
 RUN apk update && apk add --no-cache wget tar g++ gcc make cmake boost-dev libgomp \
@@ -37,6 +38,7 @@ RUN apk update && apk add --no-cache wget tar g++ gcc make cmake boost-dev libgo
     && cp /tmp/patches/NNParam.cpp /tmp/cfm/cfm-code/NNParam.cpp \
     && cp /tmp/patches/cfm_code_CMakeLists.txt /tmp/cfm/cfm-code/CMakeLists.txt \
     && cp /tmp/patches/cfm-train-main.cpp /tmp/cfm/cfm-train/main.cpp \
+    && cp /tmp/patches/cfm-predict-main.cpp /tmp/cfm/cfm-predict/main.cpp \
     && cd /tmp/cfm \
     && mkdir build \
     && cd build \

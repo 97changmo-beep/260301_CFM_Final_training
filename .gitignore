@@ -3,11 +3,16 @@ HMDB data/
 
 # Training outputs (generated during training)
 # Note: pretrained/param_output.log is INCLUDED (needed for transfer learning)
-fold_*/param_output.log
+**/fold_*/param_output.log
+**/fold_*/param_output_buggy.log
 **/training.log
 **/tmp_data/
 **/predictions/
 **/baseline_predictions/
+**/val_predictions/
+
+# Large CSV files from exhaustive grid searches
+**/scoring_search_results.csv
 
 # Python
 __pycache__/

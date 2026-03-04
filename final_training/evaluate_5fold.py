@@ -38,7 +38,7 @@ except ImportError:
 # ============================================================
 # Paths
 # ============================================================
-BASE = Path("C:/Users/Chang-Mo/Desktop/Git/260301_CFM_Final_training/final_training")
+BASE = Path(__file__).resolve().parent
 N_FOLDS = 5
 IMAGE_NAME = "cfmid-final"
 
@@ -296,30 +296,39 @@ def main():
                     pass
 
     # Save results
-    if HAS_PANDAS:
-        rows = []
-        for fold_idx, results in enumerate(all_fold_results):
-            for r in results:
-                r['fold'] = fold_idx
-                r['model'] = 'trained'
-                rows.append(r)
-        for fold_idx, results in enumerate(all_baseline_results):
-            for r in results:
-                r['fold'] = fold_idx
-                r['model'] = 'baseline'
-                rows.append(r)
+    rows = []
+    for fold_idx, results in enumerate(all_fold_results):
+        for r in results:
+            r['fold'] = fold_idx
+            r['model'] = 'trained'
+            rows.append(r)
+    for fold_idx, results in enumerate(all_baseline_results):
+        for r in results:
+            r['fold'] = fold_idx
+            r['model'] = 'baseline'
+            rows.append(r)
 
+    if HAS_PANDAS:
         df = pd.DataFrame(rows)
         out_csv = BASE / 'evaluation_results.csv'
         df.to_csv(out_csv, index=False)
         print(f'\nSaved: {out_csv}')
-
         try:
             out_xlsx = BASE / 'evaluation_results.xlsx'
             df.to_excel(out_xlsx, index=False)
             print(f'Saved: {out_xlsx}')
         except Exception:
             pass
+    elif rows:
+        out_csv = BASE / 'evaluation_results.csv'
+        fieldnames = ['fold', 'model', 'compound_id',
+                      'cos_e0', 'matched_e0', 'cos_e1', 'matched_e1',
+                      'cos_e2', 'matched_e2']
+        with open(out_csv, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            writer.writeheader()
+            writer.writerows(rows)
+        print(f'\nSaved: {out_csv}')
 
     print(f'\nDone.')
 
