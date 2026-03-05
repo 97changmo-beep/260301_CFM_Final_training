@@ -18,14 +18,18 @@ import pandas as pd
 import numpy as np
 
 BASE = Path(__file__).resolve().parent
-MODELS = ['cfm_default', 'param_jjy', 'full_model']
+MODELS = ['cfm_default', 'param_jjy', 'full_model', 'neome_v8']
 MODEL_LABELS = {
     'cfm_default': 'CFM-ID Default',
     'param_jjy': 'Param_JJY',
     'full_model': 'Full Model (Final)',
+    'neome_v8': 'NeoME V8',
 }
 ENERGIES = [0, 1, 2]
-MGF_PATH = BASE.parent.parent / '529_invitroDESTNI_features.mgf'
+# Try new structure first (01_library), then old
+MGF_PATH = BASE.parent.parent / '01_library' / '529_invitroDESTNI_features.mgf'
+if not MGF_PATH.exists():
+    MGF_PATH = BASE.parent.parent / '529_invitroDESTNI_features.mgf'
 
 
 # ============================================================

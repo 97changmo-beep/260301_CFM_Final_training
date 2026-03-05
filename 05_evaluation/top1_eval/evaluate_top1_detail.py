@@ -15,11 +15,12 @@ import numpy as np
 import pandas as pd
 
 BASE = Path(__file__).resolve().parent
-MODELS = ['cfm_default', 'param_jjy', 'full_model']
+MODELS = ['cfm_default', 'param_jjy', 'full_model', 'neome_v8']
 MODEL_LABELS = {
     'cfm_default': 'CFM-ID Default',
     'param_jjy': 'Param_JJY',
     'full_model': 'Full Model (Final)',
+    'neome_v8': 'NeoME V8',
 }
 ENERGIES = [0, 1, 2]
 ENERGY_WEIGHTS = {0: 0.31, 1: 0.27, 2: 0.42}  # optimized via grid search (step=0.01)
@@ -303,7 +304,10 @@ def grid_search_optimal(df, precomputed, model='full_model', step=0.05):
 def main():
     print('Loading candidates...')
     df = pd.read_pickle(BASE / 'candidates.pkl')
-    exp_spectra_dir = BASE.parent / 'full_model' / 'spectra'
+    # Try new structure first (05_evaluation → 04_training), then old
+    exp_spectra_dir = BASE.parent.parent / '04_training' / 'full_model' / 'spectra'
+    if not exp_spectra_dir.exists():
+        exp_spectra_dir = BASE.parent / 'full_model' / 'spectra'
 
     # Phase 1: Precompute all per-energy metrics
     print('Precomputing per-energy metrics for all models...')
